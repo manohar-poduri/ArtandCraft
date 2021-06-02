@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        />
+
+    <item android:id="@+id/live_stream"
+        android:title="Live Streaming"
+        android:icon="@drawable/live"/>
+
+    <item android:id="@+id/users"
+        android:title="Users"
+        android:icon="@drawable/users"/>
+
+
+    <item android:id="@+id/messages"
+        android:title="Messages"
+        android:icon="@drawable/messages"/>
+
+
+</menu>

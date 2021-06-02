@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "376420116401",
+    "project_id": "surface-24c27",
+    "storage_bucket": "surface-24c27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376420116401:android:a329850169e1d3bf98ff90",
+        "android_client_info": {
+          "package_name": "com.example.studentandteacherlivestreamingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376420116401-4dqdga05284c8i0pdlcsnoh51nd6luk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKjr9WCcs6koKUWin96sVFYCsM4M9LCr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376420116401-4dqdga05284c8i0pdlcsnoh51nd6luk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

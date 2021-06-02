@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <com.scwang.wave.MultiWaveHeader
+        android:id="@+id/waveHeader"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:mwhCloseColor="@color/colorAccent"
+        app:mwhStartColor="@color/colorAccent"
+        app:mwhWaveHeight="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome,"
+        android:layout_marginTop="70dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/welcome"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In to Continue!"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/welcome"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Email Id"
+        android:layout_below="@id/waveHeader"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/email"
+            android:inputType="textEmailAddress"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Password"
+        android:layout_below="@id/emailSignIn"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/password"
+            android:inputType="textPassword"
+            >
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/signInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignIn"
+        android:layout_below="@id/passwordSignIn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/background_button_1"
+        android:onClick="onClick"
+        />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_below="@id/signInBtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:onClick="onClick"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/dont_have_an_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/registerHereBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Register Here"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:onClick="onClick"
+        />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

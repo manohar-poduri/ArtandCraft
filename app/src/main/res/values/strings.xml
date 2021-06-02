@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Student And Teacher Live Streaming App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    <string name="agora_app_id">8faeeae1e3e84bd98de8484372947646</string>-->
+    <string name="agora_app_id">4cbe5348973748848b009a81114bc33d</string>
+
+    <string name="pubnub_pub_key">pub-c-11d8917c-aaf2-4d2d-803c-4e89836e9362</string>
+    <string name="pubnub_sub_key">sub-c-3693b24c-a0ea-11eb-8dfb-c2cb28a4a163</string>
+
+
+    <string name="host">Host</string>
+    <string name="audience">Audience</string>
+    <string name="radiotext">Create a live broadcast or join an existing one</string>
+    <string name="channelprompt">Enter Channel Name:</string>
+    <string name="submit">Submit</string>
+    <string name="single_input">Single line input</string>
+    <string name="str_msg_single">Point to point message</string>
+    <string name="str_msg_channel">Channel message</string>
+    <string name="str_join_channe_failed">Join channel failed</string>
+    <string name="str_online">(Online)</string>
+    <string name="str_not_online">(Not online)</string>
+    <string name="str_msg_not_empty">The account is empty</string>
+    <string name="str_msg_not_128">The account is no more than 128</string>
+    <string name="str_msg_not_contains_space">The account contains space</string>
+    <string name="str_msg_cannot_yourself">The account cannot be yourself</string>
+    <string name="str_msg_net_bad">Login Failed for the network is not available</string>
+    <string name="str_login">Login</string>
+    <string name="str_chat">Chat</string>
+    <string name="str_join">Join</string>
+    <string name="str_send">Send</string>
+    <string name="str_friend">Friends name</string>
+    <string name="str_channel">Channel name</string>
+    <string name="str_account">Account</string>
+</resources>
